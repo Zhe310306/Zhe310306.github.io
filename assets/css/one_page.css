@@ -48,7 +48,7 @@ body {
 }
 
 .header-row .menu li:hover {
-    color: red;
+    color: rgb(0, 195, 255);
 }
 
 .header-row .menu .en {
@@ -59,4 +59,15 @@ body {
 .header-row .menu .zh {
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.page{
+    height: 100vh;
+}
+
+.p-1 {
+    background-color: rgb(63, 63, 63);
+    background-image: url(../images/one_page/banner.jpeg);
+    background-size: cover;
+    position: relative;
 }
