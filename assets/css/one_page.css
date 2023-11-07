@@ -1,0 +1,19 @@
+body {
+    background: #dedede;
+}
+
+.footer {
+    background: white;
+    height: 100px;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.copyright {
+    font-size: 0.9rem;
+}
