@@ -1,0 +1,17 @@
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #cecece;
+}
+
+.header-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.header-wrap .right-side {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
