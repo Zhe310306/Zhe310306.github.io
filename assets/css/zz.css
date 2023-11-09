@@ -1,3 +1,7 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
 .header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -16,3 +20,22 @@
     justify-content: space-between;
 }
 
+.link-button {
+    display: flex;
+    gap: 10px;
+}
+
+.link-button a {
+    display: inline-block;
+    background-color: #eeeeee;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.4s;
+    font-size: 1.2rem;
+}
+
+.link-button a:hover,
+.link-button li.active a {
+    color: rgb(14, 60, 160);
+}
