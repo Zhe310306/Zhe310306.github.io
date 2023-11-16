@@ -61,3 +61,41 @@ body {
     width: 2px;
     background: #cecece;
 }
+
+.main {
+    height: 150vh;
+}
+
+.footer {
+    background: #fafafa;
+    border-top: 2px solid #cecece;
+}
+
+.footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-top: 2px solid #cecece;
+}
+
+.footer .copyright .copyright-icon {
+    margin-right: 5px;
+}
+
+.footer .top-side {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 60px;
+}
+
+.footer .menu {
+    display: flex;
+    gap: 60px;
+}
+
+.footer .menu .menu-title {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
