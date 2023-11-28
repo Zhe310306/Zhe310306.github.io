@@ -11,6 +11,10 @@ body {
     font-size: 16px;
 }
 
+img {
+    max-width: 100%;
+}
+
 .header {
     height: var(--header-h);
     background-color: var(--header-bg);
@@ -22,6 +26,15 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.header-logo {
+    border-right: 2px solid var(--header-border-color);
+    text-align: center;
+}
+
+.header-logo img {
+    max-width: 70%;
 }
 
 .header-menu {
@@ -55,4 +68,22 @@ body {
 .menu-button-wrap a:hover,
 .menu-button-wrap a.active {
     color: rgb(25, 108, 202);
+}
+
+.proudct-information {
+    margin: 20px auto;
+}
+
+.product-information-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.product-information-video {
+    flex: 2;
+}
+
+.product-information-text {
+    flex: 1;
+    padding: 0 30px;
 }
