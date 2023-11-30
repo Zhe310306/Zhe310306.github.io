@@ -162,3 +162,20 @@ img {
 .project-count-item>span:last-child {
     color: #09aa17;
 }
+
+.project-description {
+    font-size: 0.9rem;
+    line-height: 26px;
+    margin: 15px auto;
+    text-align: justify;
+}
+
+hr.line {
+    border-color: var(--header-border-color);
+}
+
+.project-run-range {
+    margin: 15px auto;
+    color: var(--second-color);
+    font-size: 0.8rem;
+}
